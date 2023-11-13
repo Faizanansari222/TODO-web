@@ -1,0 +1,93 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+text-align: center;
+background-color: rgb(46, 46, 46);
+
+    /* display: flex;alicenter; */
+}
+
+
+h1{
+    /* margin: 1,100%; */
+    border-bottom: 5px groove rgb(48, 47, 47);
+    
+}
+.heading{
+    background-color: rgb(255, 255, 255);
+}
+
+.inputfield{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 20px 0px;
+    /* width: 20px; */
+}
+input{
+    padding-left: 10px;
+    width: 50%;
+    height: 25px;
+}
+.enter-btn:hover{
+transform: scale(1);
+transition: 0.2s;
+
+/* margin-left: 10px; */
+background-color: black;
+color: white;
+
+}
+.enter-btn{
+    width: 67px;
+    /* height: 25px; */
+    margin-left: -70px;
+    background-color: transparent;
+    border: 0px;
+    font-weight: bold;
+}
+ul > li{
+    color: white;
+
+}
+button{
+    padding: 8px;
+}
+
+.editBtn{
+    box-shadow: 1px 1px 2px rgb(133, 133, 133);
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 240, 240);
+    border: none;
+    margin-left:10% ;
+}
+.btns{
+    /* display  : flex; */
+}
+
+.deleteBtn{
+    box-shadow: 1px 1px 2px rgb(133, 133, 133);
+color: white;
+background-color: red;
+border: none;
+}
+ul>li{
+    /* margin: 100px; */
+}
+.output{
+    margin: 100px;
+    /* padding-left: 100px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* text-align: left; */
+/* padding-top: 15px; */
+    /* background-color: aqua; */
+}
+.enter-btn{
+padding-top: 10px;
+}
